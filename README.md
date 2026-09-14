@@ -13,7 +13,7 @@
 
 ## About me
 
-I'm a **junior DevOps & systems engineer** in France. On a work-study contract at **LNA Santé** (Nantes) I automate audit and compliance reporting over a fleet of ~5 000 workstations, run multi-site supervision, and handle N2/N3 system administration. I'm comfortable with scripting (Python, PowerShell, Bash), CI/CD (Git, Jenkins), containers (Docker, Kubernetes) and AWS. Currently completing a Master's in Networks & Telecommunications at Université de Reims Champagne-Ardenne.
+I'm a **junior DevOps & systems engineer** in France. On a work-study contract at **LNA Santé** (Paris) I automate audit and compliance reporting over a fleet of ~5 000 workstations, run multi-site supervision, and handle N2/N3 system administration. I'm comfortable with scripting (Python, PowerShell, Bash), CI/CD (Git, Jenkins), containers (Docker, Kubernetes) and AWS. Currently completing a Master's in Networks & Telecommunications at Université de Reims Champagne-Ardenne.
 
 My full résumé, projects and certifications are on my **[portfolio](https://tahir-zineb.github.io/)**.
 

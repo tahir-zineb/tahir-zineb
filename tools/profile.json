@@ -1,22 +1,22 @@
 {
   "name": [
-    "Mohammed",
-    "EL-KHOU"
+    "Zineb",
+    "TAHIR"
   ],
-  "badge": "Data/Cloud Engineer · Big Data/Python Developer · R&D ML/AI",
+  "badge": "DevOps · Systems · Cloud (AWS)",
   "roles": [
-    "Data Engineer",
+    "DevOps Engineer",
     "Cloud Engineer (AWS)",
-    "Big Data Engineer",
-    "Python Developer",
-    "ML / AI Engineer"
+    "Systems Administrator",
+    "CI/CD Engineer",
+    "Python Developer"
   ],
   "links": {
-    "portfolio": "https://m-elkhou.github.io/",
-    "linkedin": "https://www.linkedin.com/in/m-elkhou/",
-    "email": "mailto:m.elkhou@hotmail.com",
-    "cv": "https://m-elkhou.github.io/assets/cv/Mohammed_EL-KHOU_CV.pdf",
-    "projects": "https://m-elkhou.github.io/#projects"
+    "portfolio": "https://tahir-zineb.github.io/",
+    "linkedin": "https://www.linkedin.com/in/z-tahir",
+    "email": "mailto:zineb.tahirr@hotmail.com",
+    "cv": "https://tahir-zineb.github.io/assets/cv/Zineb_TAHIR_CV.pdf",
+    "projects": "https://tahir-zineb.github.io/#projects"
   },
   "buttons": [
     {
@@ -43,46 +43,42 @@
   ],
   "metrics": [
     {
-      "n": "6+",
-      "l": "years of experience"
+      "n": "5 000+",
+      "l": "workstations managed"
     },
     {
-      "n": "70+",
-      "l": "projects delivered"
-    },
-    {
-      "n": "80 %",
-      "l": "faster ETL than Talend"
-    },
-    {
-      "n": "95.1 %",
-      "l": "LLM match rate"
-    },
-    {
-      "n": "15",
+      "n": "6",
       "l": "certifications"
+    },
+    {
+      "n": "3",
+      "l": "multi-site environments"
+    },
+    {
+      "n": "2+",
+      "l": "years of work-study"
     }
   ],
   "doing": [
     {
-      "title": "Data Engineering",
-      "glyph": "sql",
-      "text": "Python ETL and data warehouses on Oracle, PostgreSQL, Salesforce and Athena, 80 % faster than the Talend jobs they replaced."
+      "title": "DevOps & CI/CD",
+      "glyph": "docker",
+      "text": "CI/CD pipelines with Git, Jenkins and Maven; containerised deployment with Docker and Docker Compose; automated testing with Selenium and Locust."
+    },
+    {
+      "title": "Automation & systems",
+      "glyph": "ansible",
+      "text": "Python and PowerShell scripting to industrialise reporting and administration; Ansible provisioning; Windows Server, Active Directory and Linux administration."
     },
     {
       "title": "Cloud on AWS",
       "glyph": "aws",
-      "text": "Serverless and container platforms with Lambda, ECS Fargate, Step Functions and CloudFront, shipped with Terraform and CI/CD."
+      "text": "EC2, Lambda, S3, API Gateway and DynamoDB; event-driven serverless architectures and an Introduction-to-Cloud certification."
     },
     {
-      "title": "AdTech & LLMs",
-      "glyph": "bedrock",
-      "text": "Audience intelligence for TV: programme matching with Claude on Amazon Bedrock, FreeWheel automation, IAB TCF consent."
-    },
-    {
-      "title": "Big Data & ML",
-      "glyph": "spark",
-      "text": "Spark and Hadoop pipelines on Cloudera, a dual-run migration to GCP, and computer vision, NLP and speech models in production."
+      "title": "Supervision & data",
+      "glyph": "grafana",
+      "text": "Centralised multi-site supervision with containerised monitoring, Grafana and Zabbix dashboards, log centralisation and email alerting."
     }
   ],
   "sections": {
@@ -90,5 +86,8 @@
     "doing": "What I do",
     "stack": "Tech stack",
     "connect": "Let's connect"
-  }
+  },
+  "about": "I'm a **junior DevOps & systems engineer** in France. On a work-study contract at **LNA Santé** (Paris) I automate audit and compliance reporting over a fleet of ~5 000 workstations, run multi-site supervision, and handle N2/N3 system administration. I'm comfortable with scripting (Python, PowerShell, Bash), CI/CD (Git, Jenkins), containers (Docker, Kubernetes) and AWS. Currently completing a Master's in Networks & Telecommunications at Université de Reims Champagne-Ardenne.",
+  "statusLeft": "now @ LNA Santé · work-study since 2024",
+  "statusRight": "Paris · 2+ yrs"
 }

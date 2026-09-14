@@ -183,14 +183,14 @@ def header(mode, p):
     first, last = p["name"]
     titles = p["badge"].split(" · ")
     title_svg = f' <tspan fill="{t["acc1"]}">·</tspan> '.join(esc(x) for x in titles)
-    status_l = f"now @ RMC BFM ADS (Altice Media) · since 01/2024"
-    status_r = "Paris · 6+ yrs"
+    status_l = p.get("statusLeft", "now @ LNA Santé · work-study since 2024")
+    status_r = p.get("statusRight", "Paris · 2+ yrs")
     mono12 = 7.2
     name_w = text_width(f"{first} ", 54, 800) - 1 * len(first)  # letter-spacing -1
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="t d">
 <title id="t">{first} {last}</title>
-<desc id="d">{esc(p["badge"])}: Data Engineer / Cloud Engineer (AWS) at RMC BFM ADS (Altice Media), Paris.</desc>
+<desc id="d">{esc(p["badge"])}. {esc(p.get("statusLeft","").replace("now @ ","Currently at ").split(" · ")[0])}.</desc>
 {STYLE}
 <defs>
 <linearGradient id="acc" gradientUnits="userSpaceOnUse" x1="{f(54 + name_w)}" y1="0" x2="{f(54 + name_w + 300)}" y2="0"><stop offset="0" stop-color="{t["acc1"]}"/><stop offset="1" stop-color="{t["acc2"]}"/></linearGradient>
@@ -226,8 +226,8 @@ def header(mode, p):
 <g class="m" font-size="12">
 <circle cx="61" cy="{BAR + 19}" r="3.5" fill="{t["ok"]}"/>
 <circle cx="61" cy="{BAR + 19}" r="3.5" fill="none" stroke="{t["ok"]}"><animate attributeName="r" values="3.5;9" dur="2.2s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".7;0" dur="2.2s" repeatCount="indefinite"/></circle>
-<text x="74" y="{BAR + 23}" textLength="{f(len(status_l) * mono12)}" lengthAdjust="spacing" fill="{t["muted"]}">now @ <tspan fill="{t["text"]}">RMC BFM ADS</tspan> (Altice Media) · since 01/2024</text>
-<text x="{W - 56}" y="{BAR + 23}" text-anchor="end" textLength="{f(len(status_r) * mono12)}" lengthAdjust="spacing" fill="{t["muted"]}">Paris <tspan fill="{t["acc1"]}">·</tspan> <tspan fill="{t["text"]}">6+</tspan> yrs</text>
+<text x="74" y="{BAR + 23}" textLength="{f(len(status_l) * mono12)}" lengthAdjust="spacing" fill="{t["muted"]}">{esc(status_l)}</text>
+<text x="{W - 56}" y="{BAR + 23}" text-anchor="end" textLength="{f(len(status_r) * mono12)}" lengthAdjust="spacing" fill="{t["muted"]}">{esc(status_r)}</text>
 </g>
 <rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="16" fill="none" stroke="{t["cardStroke"]}"/>
 </svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Jira">
+<title>Jira</title>
+<defs>
+<linearGradient id="bg-jira-light" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f3f6f9"/></linearGradient>
+<radialGradient id="glow-jira-light" cx="0.5" cy="0.45" r="0.55"><stop offset="0" stop-color="#0052CC" stop-opacity="0.12"/><stop offset="1" stop-color="#0052CC" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="2" y="2" width="92" height="92" rx="22" fill="url(#bg-jira-light)"/>
+<rect x="2" y="2" width="92" height="92" rx="22" fill="url(#glow-jira-light)"/>
+<rect x="2.5" y="2.5" width="91" height="91" rx="21.5" fill="none" stroke="#d0d7de"/>
+<path d="M24 3.5h48" stroke="#ffffff" stroke-opacity="0.9" stroke-linecap="round"/>
+<svg x="25.00" y="25.00" width="46.00" height="46.00" viewBox="0.0 0.0 24.000 24.000"><g fill="#0052CC"><path d="M11.571 11.513H0a5.218 5.218 0 0 0 5.232 5.215h2.13v2.057A5.215 5.215 0 0 0 12.575 24V12.518a1.005 1.005 0 0 0-1.005-1.005zm5.723-5.756H5.736a5.215 5.215 0 0 0 5.215 5.214h2.129v2.058a5.218 5.218 0 0 0 5.215 5.214V6.758a1.001 1.001 0 0 0-1.001-1.001zM23.013 0H11.455a5.215 5.215 0 0 0 5.215 5.215h2.129v2.057A5.215 5.215 0 0 0 24 12.483V1.005A1.001 1.001 0 0 0 23.013 0Z"/></g></svg>
+</svg>

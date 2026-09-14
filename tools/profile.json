@@ -1,0 +1,94 @@
+{
+  "name": [
+    "Mohammed",
+    "EL-KHOU"
+  ],
+  "badge": "Data/Cloud Engineer · Big Data/Python Developer · R&D ML/AI",
+  "roles": [
+    "Data Engineer",
+    "Cloud Engineer (AWS)",
+    "Big Data Engineer",
+    "Python Developer",
+    "ML / AI Engineer"
+  ],
+  "links": {
+    "portfolio": "https://m-elkhou.github.io/",
+    "linkedin": "https://www.linkedin.com/in/m-elkhou/",
+    "email": "mailto:m.elkhou@hotmail.com",
+    "cv": "https://m-elkhou.github.io/assets/cv/Mohammed_EL-KHOU_CV.pdf",
+    "projects": "https://m-elkhou.github.io/#projects"
+  },
+  "buttons": [
+    {
+      "id": "portfolio",
+      "label": "Portfolio",
+      "icon": "globe",
+      "primary": true
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "icon": "linkedin"
+    },
+    {
+      "id": "email",
+      "label": "Email",
+      "icon": "mail"
+    },
+    {
+      "id": "cv",
+      "label": "Resume (PDF)",
+      "icon": "file"
+    }
+  ],
+  "metrics": [
+    {
+      "n": "6+",
+      "l": "years of experience"
+    },
+    {
+      "n": "70+",
+      "l": "projects delivered"
+    },
+    {
+      "n": "80 %",
+      "l": "faster ETL than Talend"
+    },
+    {
+      "n": "95.1 %",
+      "l": "LLM match rate"
+    },
+    {
+      "n": "15",
+      "l": "certifications"
+    }
+  ],
+  "doing": [
+    {
+      "title": "Data Engineering",
+      "glyph": "sql",
+      "text": "Python ETL and data warehouses on Oracle, PostgreSQL, Salesforce and Athena, 80 % faster than the Talend jobs they replaced."
+    },
+    {
+      "title": "Cloud on AWS",
+      "glyph": "aws",
+      "text": "Serverless and container platforms with Lambda, ECS Fargate, Step Functions and CloudFront, shipped with Terraform and CI/CD."
+    },
+    {
+      "title": "AdTech & LLMs",
+      "glyph": "bedrock",
+      "text": "Audience intelligence for TV: programme matching with Claude on Amazon Bedrock, FreeWheel automation, IAB TCF consent."
+    },
+    {
+      "title": "Big Data & ML",
+      "glyph": "spark",
+      "text": "Spark and Hadoop pipelines on Cloudera, a dual-run migration to GCP, and computer vision, NLP and speech models in production."
+    }
+  ],
+  "sections": {
+    "about": "About me",
+    "doing": "What I do",
+    "stack": "Tech stack",
+    "connect": "Let's connect"
+  }
+}

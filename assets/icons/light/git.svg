@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Git">
+<title>Git</title>
+<defs>
+<linearGradient id="bg-git-light" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f3f6f9"/></linearGradient>
+<radialGradient id="glow-git-light" cx="0.5" cy="0.45" r="0.55"><stop offset="0" stop-color="#F03C2E" stop-opacity="0.12"/><stop offset="1" stop-color="#F03C2E" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="2" y="2" width="92" height="92" rx="22" fill="url(#bg-git-light)"/>
+<rect x="2" y="2" width="92" height="92" rx="22" fill="url(#glow-git-light)"/>
+<rect x="2.5" y="2.5" width="91" height="91" rx="21.5" fill="none" stroke="#d0d7de"/>
+<path d="M24 3.5h48" stroke="#ffffff" stroke-opacity="0.9" stroke-linecap="round"/>
+<svg x="25.00" y="25.00" width="46.00" height="46.00" viewBox="-0.001 -0.001 24.001 24.002"><g fill="#F03C2E"><path d="M13.09 23.549a1.54 1.54 0 0 1-2.18 0L.451 13.089a1.54 1.54 0 0 1 0-2.179l7.191-7.19 2.733 2.733a1.85 1.85 0 0 0 .964 2.326v6.66a1.849 1.849 0 1 0 1.54 0V8.957l2.508 2.508a1.85 1.85 0 1 0 1.09-1.09l-2.634-2.634a1.85 1.85 0 0 0-2.378-2.377L8.73 2.63 10.91.451a1.54 1.54 0 0 1 2.179 0l10.459 10.46a1.54 1.54 0 0 1 0 2.179z"/></g></svg>
+</svg>
